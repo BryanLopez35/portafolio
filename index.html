@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Tu Portafolio</title>
+  <style>
+    /* Establecer el tamaño de la landing page a la altura de la ventana */
+    .landing-page {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Agregar margen superior al contenido después del navbar */
+    .content {
+      margin-top: 80px;
+      /* Ajusta el valor según tus necesidades */
+    }
+
+    /* Estilo para el navbar fijo */
+    .navbar-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Landing Page -->
+  <header class="jumbotron jumbotron-fluid text-center landing-page">
+    <div class="container">
+      <h1 class="display-4">¡Bienvenido a mi portafolio!</h1>
+      <p class="lead">Desarrollador web con experiencia en front-end y back-end.</p>
+      <a href="#projects" class="btn btn-primary btn-lg">Ver Proyectos</a>
+      <!-- Botón para desplazarse hacia los proyectos -->
+    </div>
+  </header>
+
+  <!-- Contenido -->
+  <div class="content">
+    <!-- Proyectos -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Mis Proyectos</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 1</h5>
+                <p class="card-text">Breve descripción del proyecto.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 2</h5>
+                <p class="card-text">Breve descripción del proyecto.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 3</h5>
+                <p class="card-text">Breve descripción del proyecto.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contacto -->
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Contacto</h2>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form>
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Ingresa tu mensaje"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Sobre Mí</h2>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo vel mi dignissim consectetur.
+              Nulla ac sapien vitae metus dignissim viverra. Sed id placerat ipsum, at venenatis enim.</p>
+            <p>Curabitur et elit auctor, iaculis diam eu, vulputate ex. Nulla facilisi. Mauris vitae magna a diam
+              ultricies aliquet vitae sit amet sem. Donec scelerisque felis et nibh congue cursus. Quisque cursus dui in
+              risus ultrices semper.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Blog</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="blog1.jpg" class="card-img-top" alt="Blog 1">
+              <div class="card-body">
+                <h5 class="card-title">Título del Blog 1</h5>
+                <p class="card-text">Breve descripción del blog.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="blog2.jpg" class="card-img-top" alt="Blog 2">
+              <div class="card-body">
+                <h5 class="card-title">Título del Blog 2</h5>
+                <p class="card-text">Breve descripción del blog.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="blog3.jpg" class="card-img-top" alt="Blog 3">
+              <div class="card-body">
+                <h5 class="card-title">Título del Blog 3</h5>
+                <p class="card-text">Breve descripción del blog.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tu Nombre</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var navbar = $(".navbar");
+
+      // Inicializar Smooth Scroll
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800 // Velocidad de desplazamiento (ajusta el valor según tus necesidades)
+      });
+
+      $(window).scroll(function () {
+        var scrollPosition = $(window).scrollTop();
+
+        if (scrollPosition >= 100) {
+          navbar.addClass("navbar-fixed");
+        } else {
+          navbar.removeClass("navbar-fixed");
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
