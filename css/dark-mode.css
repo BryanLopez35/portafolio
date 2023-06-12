@@ -1,0 +1,15 @@
+body.dark-mode {
+    /* Estilos para el tema oscuro */
+    background-color: #222;
+    color: #ddd;
+  }
+  
+  .dark-mode-toggle .toggle {
+    background-color: #ddd;
+    border-color: #ddd;
+  }
+  
+  .dark-mode-toggle .toggle i {
+    color: #111;
+  }
+  

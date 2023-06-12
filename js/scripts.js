@@ -70,3 +70,4 @@ $(document).ready(function () {
     typeText();
     setTimeout(typeText2, 1500); // Retardo para empezar a escribir la descripción
   });
+  

@@ -1,53 +1,54 @@
 /* Establecer el tamaño de la landing page a la altura de la ventana */
 .landing-page {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: hsla(0, 100%, 50%, 1);
-  background-image:
-    radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
-    radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
-    radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
-    radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
-    radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0, 100%, 50%, 1);
+    background-image:
+        radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+        radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
+        radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+
 }
 
 /* Agregar margen superior al contenido después del navbar */
 .content {
-  margin-top: 80px;
-  /* Ajusta el valor según tus necesidades */
+    margin-top: 80px;
+    /* Ajusta el valor según tus necesidades */
 }
 
 /* Estilo para el navbar fijo */
 .navbar-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 
 /* Estilo para los íconos de redes sociales */
 .social-icons {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .social-icons a {
-  color: #333;
-  font-size: 20px;
-  margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Establecer el tamaño de la landing page a la altura de la ventana */
 .full-screen-section {
-  height: 100vh;
+    height: 100vh;
 }
