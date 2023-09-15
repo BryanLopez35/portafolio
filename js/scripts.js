@@ -52,8 +52,8 @@ $(document).ready(function () {
 });
 
 // Texto que se va a escribir
-const welcomeText = "¡Bienvenido a mi portafolio!";
-const descriptionText = "Desarrollador web con experiencia en front-end y back-end.";
+const welcomeText = "¡Hola! Soy Bryan López";
+const descriptionText = "Desarrollador Web";
 
 // Obtener los elementos span
 const typedText = document.getElementById("typed-text");
